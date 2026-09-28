@@ -1,0 +1,16 @@
+{
+  "title": "Hack4u Community Center",
+  "logo": "/assets/img/logo.png",
+  "heading": "Hack4u Community Center",
+  "description": "",
+  "notice": "Este proyecto no es oficial de Hack4u, es un proyecto comunitario.",
+  "repo": "",
+  "branch": "main",
+  "links": [
+    { "label": "YouTube", "url": "https://www.youtube.com/s4vitar" },
+    { "label": "Twitch", "url": "https://www.twitch.tv/s4vitaar" },
+    { "label": "Academia", "url": "https://hack4u.io/" },
+    { "label": "Hacking Vault", "url": "https://www.hackingvault.com/" },
+    { "label": "Hackstream", "url": "https://hackstream.io/" }
+  ]
+}

@@ -1,0 +1,132 @@
+[
+ {
+  "type": "folder",
+  "title": "Problemas Linux",
+  "path": "problemas",
+  "description": "Incidencias reales, diagnósticos y soluciones organizadas por entorno.",
+  "image": "",
+  "badge": "",
+  "tags": [],
+  "children": [
+   {
+    "type": "folder",
+    "title": "BSPWM",
+    "path": "problemas/bspwm",
+    "description": "Casos y soluciones de BSPWM, sxhkd y sus componentes.",
+    "image": "",
+    "badge": "",
+    "tags": [],
+    "children": [
+     {
+      "type": "page",
+      "title": "Cómo documentar un problema",
+      "path": "problemas/bspwm/como-publicar",
+      "file": "problemas/bspwm/00-como-publicar.md",
+      "description": "Guía breve para que otras personas puedan reproducir y resolver una incidencia.",
+      "image": "",
+      "badge": "Guía",
+      "tags": [
+       "BSPWM",
+       "Linux",
+       "soporte"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "type": "folder",
+  "title": "Guías",
+  "path": "guias",
+  "description": "Tutoriales paso a paso.",
+  "image": "",
+  "badge": "",
+  "tags": [],
+  "children": [
+   {
+    "type": "page",
+    "title": "Instalación",
+    "path": "guias/instalacion",
+    "file": "guias/01-instalacion.md",
+    "description": "",
+    "image": "",
+    "badge": "",
+    "tags": []
+   },
+   {
+    "type": "folder",
+    "title": "Linux",
+    "path": "guias/linux",
+    "description": "",
+    "image": "",
+    "badge": "",
+    "tags": [],
+    "children": [
+     {
+      "type": "page",
+      "title": "Permisos en Linux",
+      "path": "guias/linux/permisos",
+      "file": "guias/linux/01-permisos.md",
+      "description": "Ejemplo de página anidada.",
+      "image": "",
+      "badge": "",
+      "tags": []
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "type": "folder",
+  "title": "Faq",
+  "path": "faq",
+  "description": "",
+  "image": "",
+  "badge": "",
+  "tags": [],
+  "children": [
+   {
+    "type": "page",
+    "title": "FAQ",
+    "path": "faq/faq",
+    "file": "faq/faq.md",
+    "description": "",
+    "image": "",
+    "badge": "",
+    "tags": []
+   }
+  ]
+ },
+ {
+  "type": "folder",
+  "title": "Soluciones bspwm",
+  "path": "soluciones-bspwm",
+  "description": "",
+  "image": "",
+  "badge": "",
+  "tags": [],
+  "children": [
+   {
+    "type": "page",
+    "title": "Solución paquete XCB en Kali Linux",
+    "path": "soluciones-bspwm/Solucion-paquetes-xcb-kali",
+    "file": "soluciones-bspwm/Solucion-paquetes-xcb-kali.md",
+    "description": "",
+    "image": "/assets/img/banners/solucion-paquete-xcb-kali.png",
+    "badge": "",
+    "tags": []
+   },
+   {
+    "type": "page",
+    "title": "Triangulos en la terminal",
+    "path": "soluciones-bspwm/Triangulos-En-La-Terminal",
+    "file": "soluciones-bspwm/Triangulos-En-La-Terminal.md",
+    "description": "",
+    "image": "",
+    "badge": "",
+    "tags": []
+   }
+  ]
+ }
+]
