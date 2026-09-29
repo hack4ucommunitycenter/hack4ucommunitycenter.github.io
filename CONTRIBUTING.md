@@ -5,7 +5,7 @@ Puedes proponer contenido desde la web de GitHub sin clonar el repositorio ni in
 ## Añadir un artículo
 
 1. Elige una categoría existente dentro de `content/`, por ejemplo `FAQ/`, `EXTRAS/` o `SOLUCIONES-BSPWM/`.
-2. Crea un archivo `.md` en esa categoría. Puedes usar un prefijo numérico en el nombre, como `02-mi-solucion.md`, para controlar su orden.
+2. Crea un archivo `.md` en esa categoría. El nombre del archivo si contiene espacios sustituyelos por `-` como por ejemplo `mi-solucion.md`.
 3. Escribe el artículo en Markdown. Incluye un título claro, el contexto necesario, los pasos para reproducir el problema y una solución verificada cuando exista.
 
 Puedes partir de la plantilla `content/_plantillas/problema.md`. El bloque inicial de metadatos es opcional; un ejemplo:
@@ -21,7 +21,7 @@ banner: assets/img/mi-banner.png
 ---
 ```
 
-Las carpetas cuyo nombre empieza por `_` son auxiliares y no aparecen en el catálogo. No edites `content/manifest.json`, `content/search.json`, `public/` ni `dist/`: se generan durante el build.
+Las carpetas cuyo nombre empieza por `_` son auxiliares y no aparecen en el catálogo. No edites `content/manifest.json`, `content/search.json`, `public/` ni `dist/`, *(se generan durante el build.)*
 
 ## Añadir imágenes
 
