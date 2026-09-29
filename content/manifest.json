@@ -73,6 +73,56 @@
   "children": [
    {
     "type": "page",
+    "title": "BSPWM no compila en Kali Linux",
+    "path": "SOLUCIONES-BSPWM/bspwm-no-compila-kalilinux",
+    "file": "SOLUCIONES-BSPWM/bspwm-no-compila-kalilinux.md",
+    "description": "",
+    "image": "/assets/img/banners/bspwm-no-compila-kalilinux.png",
+    "badge": "",
+    "tags": []
+   },
+   {
+    "type": "page",
+    "title": "Esquinas triangulares Polybar",
+    "path": "SOLUCIONES-BSPWM/esquinas-triangulares-polybar",
+    "file": "SOLUCIONES-BSPWM/esquinas-triangulares-polybar.md",
+    "description": "",
+    "image": "/assets/img/banners/esquinas-triangulares-polybar.png",
+    "badge": "",
+    "tags": []
+   },
+   {
+    "type": "page",
+    "title": "Módulo ethernet no muestra IP",
+    "path": "SOLUCIONES-BSPWM/modulo-ethernet-no-muestra-ip",
+    "file": "SOLUCIONES-BSPWM/modulo-ethernet-no-muestra-ip.md",
+    "description": "",
+    "image": "/assets/img/banners/modulo-ethernet-no-muestra-ip.png",
+    "badge": "",
+    "tags": []
+   },
+   {
+    "type": "page",
+    "title": "Picom Warning",
+    "path": "SOLUCIONES-BSPWM/picom-warning",
+    "file": "SOLUCIONES-BSPWM/picom-warning.md",
+    "description": "",
+    "image": "/assets/img/banners/picom-warning.png",
+    "badge": "",
+    "tags": []
+   },
+   {
+    "type": "page",
+    "title": "Solución paquete XCB en Kali Linux",
+    "path": "SOLUCIONES-BSPWM/permission-denied",
+    "file": "SOLUCIONES-BSPWM/permission-denied.md",
+    "description": "",
+    "image": "/assets/img/banners/permission-denied-settarget.png",
+    "badge": "",
+    "tags": []
+   },
+   {
+    "type": "page",
     "title": "Solución paquete XCB en Kali Linux",
     "path": "SOLUCIONES-BSPWM/Solucion-paquetes-xcb-kali",
     "file": "SOLUCIONES-BSPWM/Solucion-paquetes-xcb-kali.md",
