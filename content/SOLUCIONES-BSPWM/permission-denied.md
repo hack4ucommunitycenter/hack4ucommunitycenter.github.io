@@ -1,5 +1,5 @@
 ---
-title: Solución paquete XCB en Kali Linux
+title: Permission Denied módulo settarget
 banner: /assets/img/banners/permission-denied-settarget.png
 ---
 
