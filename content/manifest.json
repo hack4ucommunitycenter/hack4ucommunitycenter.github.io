@@ -52,9 +52,19 @@
   "children": [
    {
     "type": "page",
-    "title": "FAQ",
-    "path": "FAQ/faq",
-    "file": "FAQ/faq.md",
+    "title": "Soy nuevo ¿Debo tener un entorno BSPWM?",
+    "path": "FAQ/soy-nuevo-entorno-bspwm",
+    "file": "FAQ/soy-nuevo-entorno-bspwm.md",
+    "description": "",
+    "image": "/assets/img/banners/soy-nuevo-debo-tener-entorno-bspwm.png",
+    "badge": "",
+    "tags": []
+   },
+   {
+    "type": "page",
+    "title": "¿Obsidian o Notion?",
+    "path": "FAQ/obsidian-o-notion",
+    "file": "FAQ/obsidian-o-notion.md",
     "description": "",
     "image": "",
     "badge": "",
