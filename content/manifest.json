@@ -10,11 +10,31 @@
   "children": [
    {
     "type": "page",
+    "title": "Adaptador puente no funciona en Vmware",
+    "path": "EXTRAS/adaptador-puente-no-funciona-vmware",
+    "file": "EXTRAS/adaptador-puente-no-funciona-vmware.md",
+    "description": "",
+    "image": "/assets/img/banners/adaptador-puente-no-funciona-vmware.png",
+    "badge": "",
+    "tags": []
+   },
+   {
+    "type": "page",
     "title": "Atajos BSPWM",
     "path": "EXTRAS/atajos-bspwm",
     "file": "EXTRAS/atajos-bspwm.md",
     "description": "",
     "image": "",
+    "badge": "",
+    "tags": []
+   },
+   {
+    "type": "page",
+    "title": "BurpsSuite no funciona en ARM",
+    "path": "EXTRAS/burpsuite-no-functiona-arm",
+    "file": "EXTRAS/burpsuite-no-functiona-arm.md",
+    "description": "",
+    "image": "/assets/img/banners/burpsuite-no-functiona-arm.png",
     "badge": "",
     "tags": []
    },
