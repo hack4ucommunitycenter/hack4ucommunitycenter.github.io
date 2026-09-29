@@ -1,126 +1,108 @@
-# Hack4u Community Center
+# Sintaxis Markdown
 
-Sitio comunitario de artículos en Markdown, creado con React y Vite. El contenido se guarda en `content/`; durante la preparación se generan el catálogo y el índice de búsqueda.
+Referencia de la sintaxis disponible para escribir artículos `.md`.
 
-Usa archivos con extensión `.md`. Un prefijo numérico, como `01-`, permite ordenar las entradas. La guía para proponer cambios está en [CONTRIBUTING.md](CONTRIBUTING.md).
+## Encabezados
 
-## Metadatos del artículo
-
-Opcionalmente, coloca este bloque al principio del archivo. Debe empezar y terminar con una línea de tres guiones:
-
-```yaml
----
-title: Título del artículo
-description: Resumen breve que aparece en el catálogo.
-tags: linux, bspwm, x11
-badge: Solución
-order: 2
-banner: assets/img/mi-banner.png
----
-```
-
-- `title`: título del artículo. Si falta, se usa el primer encabezado de nivel 1 o el nombre del archivo.
-- `description`: resumen que se muestra en el catálogo.
-- `tags`: etiquetas separadas por comas; también se acepta una lista JSON, por ejemplo `["linux", "bspwm"]`.
-- `badge`: distintivo opcional en la tarjeta.
-- `order`: número para ordenar artículos y categorías; los prefijos numéricos del nombre también establecen el orden.
-- `banner`: ruta desde la raíz pública del sitio para la imagen de portada. Si no indicas ningún banner automáticament se pondrá el título.
-
-## Sintaxis Markdown
-
-El contenido usa Markdown con las extensiones habituales de GitHub Flavored Markdown (GFM). Los ejemplos de esta sección se escriben en archivos `.md`.
-
-### Encabezados y párrafos
-
-Usa de uno a seis signos `#` al principio de la línea. Deja una línea en blanco entre párrafos y bloques:
+Usa de uno a seis signos `#` al principio de la línea:
 
 ```md
-# Título principal
+# Título
 ## Sección
 ### Subsección
-
-Este es un párrafo. Una línea en blanco inicia otro párrafo.
 ```
 
-### Énfasis
+## Párrafos y separadores
+
+Deja una línea en blanco entre párrafos. Para insertar una línea horizontal, escribe tres guiones en una línea aparte:
+
+```md
+Primer párrafo.
+
+Segundo párrafo.
+
+---
+```
+
+## Énfasis
 
 ```md
 *cursiva* o _cursiva_
 **negrita** o __negrita__
 ~~texto tachado~~
-`código dentro de una frase`
+`código en línea`
 ```
 
-### Listas
-
-Las listas pueden ser sin ordenar, ordenadas o tareas. Indenta los elementos anidados con espacios:
+## Listas
 
 ```md
-- Primer elemento
-- Segundo elemento
-	- Elemento anidado
+- Elemento sin ordenar
+- Otro elemento
+  - Elemento anidado
 
 1. Primer paso
 2. Segundo paso
 
-- [x] Comprobado
-- [ ] Pendiente
+- [x] Tarea completada
+- [ ] Tarea pendiente
 ```
 
-### Enlaces
+## Enlaces
 
 ```md
-[Sitio externo](https://example.com)
+[Enlace externo](https://example.com)
 [Otro artículo](../FAQ/mi-articulo.md)
-[Ir a una sección](#nombre-de-la-seccion)
+[Enlace a una sección](#nombre-de-la-seccion)
 ```
 
-Los enlaces a artículos del sitio deben apuntar a su archivo `.md` y usar una ruta relativa al archivo actual. Para enlazar a un encabezado, el sitio convierte el texto a minúsculas, quita tildes y reemplaza los grupos de caracteres no alfanuméricos por guiones. Por ejemplo, `## Configuración básica` tiene el ancla `#configuracion-basica`. Los enlaces HTTP y HTTPS se abren en una pestaña nueva.
+Los enlaces a otros artículos deben apuntar al archivo `.md` con una ruta relativa. Los encabezados se convierten en anclas en minúsculas, sin tildes y con guiones en lugar de espacios y signos; por ejemplo, `## Configuración básica` genera `#configuracion-basica`.
 
-### Imágenes
+## Imágenes
 
 ```md
-![Descripción accesible](imagenes/captura.png)
-![Logo del proyecto](https://example.com/logo.png)
+![Descripción de la imagen](imagenes/captura.png)
+![Imagen externa](https://example.com/imagen.png)
 ```
 
-Las rutas relativas se resuelven desde la carpeta del artículo. Añade una descripción entre corchetes, especialmente para capturas importantes. Para la imagen de portada de una tarjeta, usa `banner` en los metadatos.
+Las rutas relativas parten de la carpeta del artículo. Escribe una descripción entre corchetes para que la imagen sea accesible.
 
-### Código
+## Bloques de código
 
-Para código en línea, usa una tilde invertida. Para varias líneas, usa tres tildes invertidas y, opcionalmente, indica el lenguaje:
+Usa tres tildes invertidas. Puedes indicar el lenguaje después de las tildes:
 
 ````md
-Ejecuta `ip addr` para consultar las interfaces.
-
 ```bash
 ip addr
 ```
 ````
 
-Los bloques conservan el formato y ofrecen un botón para copiar. No incluyas credenciales, tokens ni datos personales en ejemplos o logs.
+Para código dentro de una frase, usa una sola tilde invertida: `` `ip addr` ``.
 
-### Citas y avisos
+## Citas
 
-Una cita normal comienza con `>`:
+Empieza cada línea de la cita con `>`:
 
 ```md
-> Una cita o fragmento de documentación.
+> Esta es una cita.
+>
+> Puede ocupar varios párrafos.
 ```
 
-Para mostrar un aviso destacado, la primera línea del bloque debe empezar con uno de estos marcadores: `[!DANGER]`, `[!WARNING]`, `[!NOTE]` o `[!UPDATE]`.
+## Avisos
+
+Para mostrar un aviso destacado, empieza la cita con `[!DANGER]`, `[!WARNING]`, `[!NOTE]` o `[!UPDATE]`:
 
 ```md
-> [!WARNING]
-> Revisa el comando antes de ejecutarlo.
-
 > [!NOTE]
-> Este ajuste solo aplica a sesiones X11.
+> Información útil para el lector.
+
+> [!WARNING]
+> Revisa este comando antes de ejecutarlo.
 ```
 
-### Tablas
+## Tablas
 
-Separa las columnas con barras verticales y la fila de encabezado de las demás con guiones:
+Separa las columnas con `|` y usa guiones para separar el encabezado:
 
 ```md
 | Comando | Uso |
@@ -129,38 +111,31 @@ Separa las columnas con barras verticales y la fila de encabezado de las demás 
 | `ping host` | Comprobar conectividad |
 ```
 
-Puedes alinear columnas con dos puntos en la fila separadora, por ejemplo `| :--- | ---: |`.
+Usa dos puntos para alinear columnas, por ejemplo `| :--- | ---: |`.
 
-### Separadores y caracteres literales
+## Caracteres literales
 
-Una línea con tres guiones separa secciones. Para mostrar literalmente un carácter que Markdown interpreta, escápalo con una barra invertida, como `\*no cursiva\*`.
+Antepon una barra invertida a un carácter que Markdown interpreta:
 
 ```md
----
-
-Escribe \# si quieres que el signo `#` no inicie un encabezado.
+\*Este texto no estará en cursiva\*
+\# Esto no será un encabezado
 ```
 
-### Vídeos de YouTube
+## Vídeos de YouTube
 
-Escribe el shortcode en una línea propia. Se aceptan enlaces `youtu.be` y enlaces habituales de `youtube.com`:
+Escribe el shortcode en una línea propia:
 
 ```md
 @[youtube](https://youtu.be/VIDEO_ID)
 ```
 
-El reproductor mantiene una proporción 16:9 y solo permite vídeos de YouTube.
+También se aceptan enlaces habituales de `youtube.com`.
 
-### Repositorios de GitHub
+## Repositorios de GitHub
 
-Este shortcode crea una tarjeta con el nombre y la descripción pública del repositorio:
+Escribe la URL directa del repositorio en una línea propia:
 
 ```md
 @[github](https://github.com/usuario/repositorio)
 ```
-
-La URL debe apuntar directamente a un repositorio válido. Si no hay descripción pública, se muestra el nombre del repositorio.
-
-## Previsualizar
-
-Desde esta carpeta, ejecuta `npm ci` y después `npm run dev`. Para comprobar la salida de producción, ejecuta `npm run build`; Vite genera `dist/`, que publica GitHub Pages. No abras el HTML con `file://`: el navegador necesita cargar el catálogo y los artículos mediante un servidor.
