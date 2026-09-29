@@ -1,8 +1,14 @@
-# Sintaxis Markdown
+# Hack4u Community Center
+> [!IMPORTANT]
+> Este proyecto no es oficial de Hack4u, es un proyecto comunitario.
+
+#
+
+## Sintaxis Markdown
 
 Referencia de la sintaxis disponible para escribir artículos `.md`.
 
-## Encabezados
+### Encabezados
 
 Usa de uno a seis signos `#` al principio de la línea:
 
@@ -12,7 +18,7 @@ Usa de uno a seis signos `#` al principio de la línea:
 ### Subsección
 ```
 
-## Párrafos y separadores
+### Párrafos y separadores
 
 Deja una línea en blanco entre párrafos. Para insertar una línea horizontal, escribe tres guiones en una línea aparte:
 
@@ -24,7 +30,7 @@ Segundo párrafo.
 ---
 ```
 
-## Énfasis
+### Énfasis
 
 ```md
 *cursiva* o _cursiva_
@@ -33,7 +39,7 @@ Segundo párrafo.
 `código en línea`
 ```
 
-## Listas
+### Listas
 
 ```md
 - Elemento sin ordenar
@@ -47,7 +53,7 @@ Segundo párrafo.
 - [ ] Tarea pendiente
 ```
 
-## Enlaces
+### Enlaces
 
 ```md
 [Enlace externo](https://example.com)
@@ -57,7 +63,7 @@ Segundo párrafo.
 
 Los enlaces a otros artículos deben apuntar al archivo `.md` con una ruta relativa. Los encabezados se convierten en anclas en minúsculas, sin tildes y con guiones en lugar de espacios y signos; por ejemplo, `## Configuración básica` genera `#configuracion-basica`.
 
-## Imágenes
+### Imágenes
 
 ```md
 ![Descripción de la imagen](imagenes/captura.png)
@@ -66,7 +72,7 @@ Los enlaces a otros artículos deben apuntar al archivo `.md` con una ruta relat
 
 Las rutas relativas parten de la carpeta del artículo. Escribe una descripción entre corchetes para que la imagen sea accesible.
 
-## Bloques de código
+### Bloques de código
 
 Usa tres tildes invertidas. Puedes indicar el lenguaje después de las tildes:
 
@@ -78,7 +84,7 @@ ip addr
 
 Para código dentro de una frase, usa una sola tilde invertida: `` `ip addr` ``.
 
-## Citas
+### Citas
 
 Empieza cada línea de la cita con `>`:
 
@@ -88,7 +94,7 @@ Empieza cada línea de la cita con `>`:
 > Puede ocupar varios párrafos.
 ```
 
-## Avisos
+### Avisos
 
 Para mostrar un aviso destacado, empieza la cita con `[!DANGER]`, `[!WARNING]`, `[!NOTE]` o `[!UPDATE]`:
 
@@ -100,7 +106,7 @@ Para mostrar un aviso destacado, empieza la cita con `[!DANGER]`, `[!WARNING]`, 
 > Revisa este comando antes de ejecutarlo.
 ```
 
-## Tablas
+### Tablas
 
 Separa las columnas con `|` y usa guiones para separar el encabezado:
 
@@ -113,7 +119,7 @@ Separa las columnas con `|` y usa guiones para separar el encabezado:
 
 Usa dos puntos para alinear columnas, por ejemplo `| :--- | ---: |`.
 
-## Caracteres literales
+### Caracteres literales
 
 Antepon una barra invertida a un carácter que Markdown interpreta:
 
@@ -122,7 +128,7 @@ Antepon una barra invertida a un carácter que Markdown interpreta:
 \# Esto no será un encabezado
 ```
 
-## Vídeos de YouTube
+### Vídeos de YouTube
 
 Escribe el shortcode en una línea propia:
 
@@ -132,7 +138,7 @@ Escribe el shortcode en una línea propia:
 
 También se aceptan enlaces habituales de `youtube.com`.
 
-## Repositorios de GitHub
+### Repositorios de GitHub
 
 Escribe la URL directa del repositorio en una línea propia:
 
