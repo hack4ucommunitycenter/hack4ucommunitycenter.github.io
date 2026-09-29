@@ -10,34 +10,33 @@
   "children": [
    {
     "type": "page",
-    "title": "Instalación",
-    "path": "EXTRAS/instalacion",
-    "file": "EXTRAS/01-instalacion.md",
+    "title": "Atajos BSPWM",
+    "path": "EXTRAS/atajos-bspwm",
+    "file": "EXTRAS/atajos-bspwm.md",
     "description": "",
     "image": "",
     "badge": "",
     "tags": []
    },
    {
-    "type": "folder",
-    "title": "Linux",
-    "path": "EXTRAS/linux",
+    "type": "page",
+    "title": "Personalizar ventanas kitty",
+    "path": "EXTRAS/personalizar-ventanas-kitty",
+    "file": "EXTRAS/personalizar-ventanas-kitty.md",
+    "description": "",
+    "image": "/assets/img/banners/personalizar-ventanas-kitty.png",
+    "badge": "",
+    "tags": []
+   },
+   {
+    "type": "page",
+    "title": "Recopilación Auto-BSPWM",
+    "path": "EXTRAS/recopilatorio-autobspwm",
+    "file": "EXTRAS/recopilatorio-autobspwm.md",
     "description": "",
     "image": "",
     "badge": "",
-    "tags": [],
-    "children": [
-     {
-      "type": "page",
-      "title": "testing",
-      "path": "EXTRAS/linux/testing",
-      "file": "EXTRAS/linux/testing.md",
-      "description": "Ejemplo de página anidada.",
-      "image": "",
-      "badge": "",
-      "tags": []
-     }
-    ]
+    "tags": []
    }
   ]
  },
