@@ -7,7 +7,8 @@
   "repo": "",
   "branch": "main",
   "links": [
-    { "label": "YouTube", "url": "https://www.youtube.com/s4vitar", "icon": "https://cdn.simpleicons.org/youtube/ffffff" },
+    { "label": "Canal principal", "url": "https://www.youtube.com/s4vitar", "icon": "https://cdn.simpleicons.org/youtube/ffffff" },
+        { "label": "Canal secundario", "url": "https://www.youtube.com/@S4viSinFiltro", "icon": "https://cdn.simpleicons.org/youtube/ffffff" },
     { "label": "Twitch", "url": "https://www.twitch.tv/s4vitaar", "icon": "https://cdn.simpleicons.org/twitch/ffffff" },
     { "label": "Academia", "url": "https://hack4u.io/", "icon": "/assets/img/logo.png" },
     { "label": "Hacking Vault", "url": "https://www.hackingvault.com/", "icon": "/assets/img/logos/hackingvault.png" },
