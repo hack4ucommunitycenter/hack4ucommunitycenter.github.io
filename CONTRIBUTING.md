@@ -15,8 +15,6 @@ Puedes partir de la plantilla `content/_plantillas/problema.md`. El bloque inici
 title: Título del artículo
 description: Resumen breve
 tags: linux, bspwm
-badge: Solución
-order: 2
 banner: assets/img/mi-banner.png
 ---
 ```
