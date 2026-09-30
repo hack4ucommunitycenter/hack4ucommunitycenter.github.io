@@ -3,13 +3,6 @@
   "logo": "/assets/img/logo.png",
   "heading": "Hack4u Community Center",
   "description": "",
-  "notifications": [
-    {
-      "id": "community-notice",
-      "type": "info",
-      "message": "Se tensa"
-    }
-  ],
   "repo": "",
   "branch": "main",
   "links": [
@@ -19,6 +12,6 @@
     { "label": "Academia", "url": "https://hack4u.io/", "icon": "/assets/img/logo.png" },
     { "label": "Hacking Vault", "url": "https://www.hackingvault.com/", "icon": "/assets/img/logos/hackingvault.png" },
     { "label": "Hackstream", "url": "https://hackstream.io/", "icon": "/assets/img/logos/hackstream.png" },
-    { "label": "Listado de máquinas (Excel)", "url": "https://hackstream.io/", "icon": "/assets/img/logos/excel.png" }
+    { "label": "Listado de máquinas (Excel)", "url": "https://docs.google.com/spreadsheets/d/1dzvaGlT_0xnT-PGO27Z_4prHgA8PHIpErmoWdlUrSoA/edit?usp=sharing", "icon": "/assets/img/logos/excel.png" }
   ]
 }
