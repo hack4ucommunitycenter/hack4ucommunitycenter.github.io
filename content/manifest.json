@@ -157,7 +157,10 @@
     "description": "",
     "image": "",
     "badge": "",
-    "tags": []
+    "tags": [
+     "obsidian",
+     "notion"
+    ]
    }
   ]
  },

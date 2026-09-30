@@ -1,5 +1,6 @@
 ---
 title: ¿Obsidian o Notion?
+tags: obsidian, notion
 ---
 
 En este articulo mostraremos las diferencias que ofrecen [Obsidian](https://obsidian.md/) y [Notion](https://www.notion.com/es-es) para que puedas saber que ofrece cada aplicación de apuntes y orden en tu día a día.
