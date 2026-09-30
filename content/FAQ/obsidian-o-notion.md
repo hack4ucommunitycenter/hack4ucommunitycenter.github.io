@@ -39,5 +39,3 @@ Ambas opciones son bastantes buenas, ya es preferencia del usuario y de lo que p
 Si no te decides puedes probar ambas aplicaciones y ver cual encaja mejor en lo que buscas en tu día a día.
 
 ---
-
-probando se tensa cositas
