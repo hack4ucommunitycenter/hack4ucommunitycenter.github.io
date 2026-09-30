@@ -36,11 +36,77 @@
     "description": "",
     "image": "/assets/img/banners/burpsuite-no-functiona-arm.png",
     "badge": "",
-    "tags": [
-     "linux",
-     "burpsuite",
-     "arm"
-    ]
+    "tags": []
+   },
+   {
+    "type": "page",
+    "title": "Iconos lanzadores en la polybar",
+    "path": "EXTRAS/iconos-lanzadores-polybar",
+    "file": "EXTRAS/iconos-lanzadores-polybar.md",
+    "description": "",
+    "image": "/assets/img/banners/iconos-lanzadores-polybar.png",
+    "badge": "",
+    "tags": []
+   },
+   {
+    "type": "page",
+    "title": "Kali Linux Auto-Resize",
+    "path": "EXTRAS/kali-linux-auto-resize",
+    "file": "EXTRAS/kali-linux-auto-resize.md",
+    "description": "",
+    "image": "/assets/img/banners/kali-linux-auto-resize.png",
+    "badge": "",
+    "tags": []
+   },
+   {
+    "type": "page",
+    "title": "Kali Linux warning update",
+    "path": "EXTRAS/kali-linux-warning-update",
+    "file": "EXTRAS/kali-linux-warning-update.md",
+    "description": "",
+    "image": "/assets/img/banners/kali-linux-warning-update.png",
+    "badge": "",
+    "tags": []
+   },
+   {
+    "type": "page",
+    "title": "Mejora modulo ethernet polybar",
+    "path": "EXTRAS/mejora-modulo-ethernet-polybar",
+    "file": "EXTRAS/mejora-modulo-ethernet-polybar.md",
+    "description": "",
+    "image": "/assets/img/banners/mejora-modulo-ethernet.png",
+    "badge": "",
+    "tags": []
+   },
+   {
+    "type": "page",
+    "title": "Máquina virtual lenta a la hora de escribir",
+    "path": "EXTRAS/vm-lenta-a-la-hora-de-escribir",
+    "file": "EXTRAS/vm-lenta-a-la-hora-de-escribir.md",
+    "description": "",
+    "image": "/assets/img/banners/vm-lenta-a-la-hora-de-escribir.png",
+    "badge": "",
+    "tags": []
+   },
+   {
+    "type": "page",
+    "title": "Parpadeos en la máquina virtual",
+    "path": "EXTRAS/parpadeos-en-la-vm",
+    "file": "EXTRAS/parpadeos-en-la-vm.md",
+    "description": "",
+    "image": "/assets/img/banners/parpadeos-en-la-vm.png",
+    "badge": "",
+    "tags": []
+   },
+   {
+    "type": "page",
+    "title": "Parrot GPG error",
+    "path": "EXTRAS/parrot-gpg-error",
+    "file": "EXTRAS/parrot-gpg-error.md",
+    "description": "",
+    "image": "/assets/img/banners/parrot-gpg-error.png",
+    "badge": "",
+    "tags": []
    },
    {
     "type": "page",

@@ -1,7 +1,6 @@
 ---
 title: BurpsSuite no funciona en ARM
 banner: /assets/img/banners/burpsuite-no-functiona-arm.png
-tags: linux, burpsuite, arm
 ---
 
 Para la solución de este problema solo necesitaremos descargarnos el BurpSuite desde la página web oficial.
