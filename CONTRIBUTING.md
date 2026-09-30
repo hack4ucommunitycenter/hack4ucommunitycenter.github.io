@@ -151,10 +151,18 @@ Antepon una barra invertida a un carácter que Markdown interpreta:
 
 ### Vídeos de YouTube
 
-Escribe el shortcode en una línea propia:
+Puede emplear el siguiente shortcode:
 
 ```md
 @[youtube](https://youtu.be/VIDEO_ID)
+```
+
+### Vídeos mp4
+
+Puede emplear el siguiente shortcode:
+
+```md
+@[video](/ruta-al-video/)
 ```
 
 También se aceptan enlaces habituales de `youtube.com`.
@@ -166,8 +174,6 @@ Escribe la URL directa del repositorio en una línea propia:
 ```md
 @[github](https://github.com/usuario/repositorio)
 ```
-
-
 
 ## Abrir un pull request
 
