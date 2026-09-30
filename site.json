@@ -19,5 +19,6 @@
     { "label": "Academia", "url": "https://hack4u.io/", "icon": "/assets/img/logo.png" },
     { "label": "Hacking Vault", "url": "https://www.hackingvault.com/", "icon": "/assets/img/logos/hackingvault.png" },
     { "label": "Hackstream", "url": "https://hackstream.io/", "icon": "/assets/img/logos/hackstream.png" }
+    { "label": "Listado de máquinas (Excel)", "url": "https://hackstream.io/", "icon": "/assets/img/logos/excel.png" }
   ]
 }
