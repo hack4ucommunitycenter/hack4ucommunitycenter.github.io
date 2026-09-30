@@ -36,7 +36,11 @@
     "description": "",
     "image": "/assets/img/banners/burpsuite-no-functiona-arm.png",
     "badge": "",
-    "tags": []
+    "tags": [
+     "linux",
+     "burpsuite",
+     "arm"
+    ]
    },
    {
     "type": "page",
