@@ -1,8 +1,8 @@
 [
   {
     "id": "community-notice",
-    "type": "info",
-    "show": false,
+    "type": "warning",
+    "show": true,
     "message": "Este proyecto no es oficial de Hack4u, es un proyecto comunitario."
   }
 ]
